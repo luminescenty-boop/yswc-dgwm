@@ -1,0 +1,35 @@
+; Godot 4 project scaffold for the modernized Arthurian game.
+; Stage 4 target: landscape iPhone 12 reference canvas with safe-area UI.
+config_version=5
+
+[application]
+config/name="亚瑟王朝：帝国崛起"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+
+[autoload]
+InputRouter="*res://scripts/input_router.gd"
+AudioService="*res://scripts/audio_service.gd"
+SaveService="*res://scripts/save_service.gd"
+SceneService="*res://scripts/scene_service.gd"
+ResourceCatalog="*res://scripts/resource_catalog.gd"
+
+[display]
+window/size/viewport_width=844
+window/size/viewport_height=390
+window/size/window_width_override=844
+window/size/window_height_override=390
+window/size/resizable=true
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=4
+
+[audio]
+default_bus_layout="res://default_bus_layout.tres"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.035, 0.047, 0.08, 1)

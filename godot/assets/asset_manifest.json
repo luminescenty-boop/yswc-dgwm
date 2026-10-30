@@ -1,0 +1,22 @@
+{
+  "logo/game": {
+    "legacy": "res://assets/legacy/logo/gameLogo.png",
+    "hd": "res://assets/hd/logo/gameLogo.png"
+  },
+  "ui/main_menu": {
+    "legacy": "res://assets/legacy/pic/menumain.png",
+    "hd": "res://assets/hd/pic/menumain.png"
+  },
+  "cg/intro_3": {
+    "legacy": "res://assets/legacy/cg/cg3.png",
+    "hd": "res://assets/hd/cg/cg3.png"
+  },
+  "battle/background_0": {
+    "legacy": "res://assets/legacy/fight/bf_0.png",
+    "hd": "res://assets/hd/fight/bf_0.png"
+  },
+  "map/woods": {
+    "legacy": "res://assets/legacy/pic/woods_bg.png",
+    "hd": "res://assets/hd/pic/woods_bg.png"
+  }
+}

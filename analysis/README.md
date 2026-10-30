@@ -9,6 +9,7 @@
 | 路径 | 内容 |
 | --- | --- |
 | `stage-2-3-report.md` | 安装包、代码结构、资源统计、运行结果和后续可行性评估 |
+| `stage-4-report.md` | Godot 4 工程、iPhone 横屏适配及自动化验收结果 |
 | `behavior-baseline.md` | 已验证的启动、菜单、首关和原版操作基准 |
 | `artifacts/decompiled/` | CFR 反编译得到的 Java 源码，仅用于分析原版行为 |
 | `artifacts/extracted/` | 从 JAR 解出的 class、PNG、sprite、MIDI 和关卡数据 |
